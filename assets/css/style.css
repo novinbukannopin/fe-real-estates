@@ -1,5 +1,5 @@
 :root{
-    --primary-color : #048853;
+    --primary-color : #348B71;
     --bg-color: #F3FFF4;
 }
 
@@ -236,4 +236,17 @@ h2{
 .nav-tabs .nav-link {
     color: #000;
     border: none;
+}
+
+.dropdown-menu{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: var(--primary-color);
+}
+.dd-item-menu{
+    color: var(--primary-color);
+}
+
+.dd-item-menu:hover{
+    color: #fff;
+    background-color: var(--primary-color);
 }
